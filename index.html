@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Anjali's</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<link rel="stylesheet" href="css/jquery-ui.css" />
+<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="all" />
+<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!-- js -->
+   <script src="js/jquery-1.11.1.min.js"></script>
+<!-- //js -->
+<!-- Custom Theme files -->
+<!--webfont-->
+<link href='//fonts.googleapis.com/css?family=Gabriela' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+<script src="js/responsiveslides.min.js"></script>
+		<script>
+						// You can also use "$(window).load(function() {"
+						$(function () {
+						 // Slideshow 4
+						$("#slider3").responsiveSlides({
+							auto: true,
+							pager: false,
+							nav: false,
+							speed: 500,
+							namespace: "callbacks",
+							before: function () {
+						$('.events').append("<li>before event fired.</li>");
+						},
+						after: function () {
+							$('.events').append("<li>after event fired.</li>");
+							}
+							});
+						});
+		</script>
+					<script type="text/javascript">
+							$(window).load(function() {
+								$("#flexiselDemo1").flexisel({
+									visibleItems: 3,
+									animationSpeed: 1000,
+									autoPlay: true,
+									autoPlaySpeed: 3000,    		
+									pauseOnHover: true,
+									enableResponsiveBreakpoints: true,
+									responsiveBreakpoints: { 
+										portrait: { 
+											changePoint:480,
+											visibleItems: 1
+										}, 
+										landscape: { 
+											changePoint:640,
+											visibleItems: 1
+										},
+										tablet: { 
+											changePoint:1080,
+											visibleItems: 2
+										}
+									}
+								});
+								
+							});
+					</script>
+					<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+<!---start-date-piker---->
+<script src="js/jquery-ui.js"></script>
+	<script>
+		$(function() {
+			$( "#datepicker,#datepicker1" ).datepicker();
+		});
+	</script>
+<!---/End-date-piker---->
+<!--animate-->
+	<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+	<script src="js/wow.min.js"></script>
+		<script>
+			 new WOW().init();
+		</script>
+<!--//end-animate-->
+</head>
+<body>
+<div class="banner w3l">
+		<div class="navigation wow zoomIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
+				<div class="container">
+					<nav class="navbar navbar-default">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+						  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						  </button>
+							<div class="logo">
+								<div class="grid__item color-3">
+									<h1><a class="link link--nukun" href="index.html"><span>A</span>njali <span>'S</span></a></h1>
+								</div>
+							</div>
+						</div>
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+							<nav class="menu menu--horatio">
+								<ul class="nav navbar-nav menu__list">
+									<li class="menu__item menu__item--current"><a href="index.html" class="menu__link">Home</a></li>
+											<li class="menu__item"><a href="#about" class="menu__link scroll">About</a></li> 
+											<li class="menu__item"><a href="#services" class="menu__link scroll">Services</a></li> 
+											<li class="menu__item"><a href="#treatments" class="menu__link scroll">Gallary</a></li> 
+											<li class="menu__item"><a href="#prices" class="menu__link scroll">Prices</a></li> 
+											<li class="menu__item"><a href="#team" class="menu__link scroll">Team</a></li> 
+											<li class="menu__item"><a href="#contact" class="menu__link scroll">Contact</a></li>
+
+								</ul>
+							</nav>
+						</div>
+					</nav>
+				</div>
+		</div>
+	<div class="banner-info wow bounceInDown" data-wow-duration="1s" data-wow-delay="0s">
+		<div class="container">
+			<div  class="callbacks_container">
+				<ul class="rslides" id="slider3">
+					<li>
+						<div class="banner-text">
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+
+<!--banner bottom-->
+<div id="services" class="services all_pad w3ls">
+	<div class="container">
+		<h3 class="title">Services<span></span></h3>
+		<div class="ser-top-grids">
+			<div class="col-md-4 ser-grid wow flipInY" data-wow-duration="1.5s" data-wow-delay="0s">
+				<div class="con-left text-center">
+					<div class="spa-ico"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span></div>
+					<h5> Rental Products </h5>
+					<p> Jewellary</p>
+					<br>
+					<p> langha</p>
+					
+				</div>
+			</div>
+			<div class="col-md-4 ser-grid wow flipInY" data-wow-duration="1.5s" data-wow-delay="0s">
+				<div class="con-left text-center">
+					<div class="spa-ico"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span></div>
+					<h5>Beatution</h5>
+					<p> we provide u beautition's</p>
+					
+				</div>
+			</div>
+			<div class="col-md-4 ser-grid wow flipInY" data-wow-duration="1.5s" data-wow-delay="0s">
+				<div class="con-left text-center">
+					<div class="spa-ico"><span class="glyphicon glyphicon-leaf" aria-hidden="true"></span></div>
+					<h5>Flower Decoration</h5>
+					<p> ya we also do flower decor</p>
+					
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//banner bottom-->
+<div id="about" class="feature all_pad wthree">
+	<div class="container">
+		<h3 class="title">About Us<span></span></h3>
+		<p class="para">We are the anjali's we provide you the best of us.  </p>
+		<div class="about-grids">
+			<div class="col-md-6 feature-grid-one wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0s">
+				<div class="port-8 effect-3">
+						<div class="image-box">
+							<img src="images/p8.jpg" alt="Image-3">
+						</div>
+						<div class="text-desc">
+							<h4>Hair Styles</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+						</div>
+				</div>
+			</div>
+			<div class="col-md-6 feature-grid wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="0s">
+				<h4>BRIDAL AND GROOM<span>Makeup & Hair Designs</span></h4>
+				<p>
+					
+
+
+				</p>
+				<p></p>
+				<a href="#small-dialog" class="play-icon popup-with-zoom-anim hvr-rectangle-out button">BOOK AN APPOINTMENT</a>
+				<a href="#treatments" class="hvr-rectangle-in button red scroll">OUR TREATMENTS</a>
+					<!-- pop-up-box -->
+					<script type="text/javascript" src="js/modernizr.custom.min.js"></script>   
+					<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+					<!--//pop-up-box -->
+					<div id="small-dialog" class="mfp-hide">
+						<div class="appoint reg">
+							<form action="#" method="post">
+								<ul>
+									 <li class="text-info">Select Date: </li>
+									 <li><input class="date" id="datepicker" type="text" value="19/10/2016" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '19/10/2016';}" required=""></li>
+								</ul>
+								<ul>
+									<li class="text-info">Select Service: </li>
+									<li>
+										<div class="section_room">
+										  <select id="country" onchange="change_country(this.value)" class="frm-field required sect">
+												<option value="null">Facials</option>
+												<option value="null">Hair cut</option> 
+												<option value="null">Spa</option>					
+												<option value="null">Pedicure</option>
+												<option value="null">Manicure</option>											
+										  </select>
+										</div>
+									</li>
+								</ul>
+								<ul>
+									<li class="text-info">Your Name: </li>
+									<li><input type="text" name="John Smith"  placeholder="John Smith" required=""></li>	
+								</ul>
+								<ul>
+									 <li class="text-info">Email: </li>
+									 <li><input type="email" name="info@example.com"  placeholder="info@example.com" required=""></li>
+								</ul>
+								<ul>
+									 <li class="text-info">Mobile Number:</li>
+									 <li><input type="text" name="1234567890"  placeholder="1234567890" required=""></li>
+								</ul>						
+								<input type="submit" value="BOOK NOW"> 
+							</form>
+						</div>
+					</div>
+					<script>
+						$(document).ready(function() {
+						$('.popup-with-zoom-anim').magnificPopup({
+							type: 'inline',
+							fixedContentPos: false,
+							fixedBgPos: true,
+							overflowY: 'auto',
+							closeBtnInside: true,
+							preloader: false,
+							midClick: true,
+							removalDelay: 300,
+							mainClass: 'my-mfp-zoom-in'
+						});
+																						
+						});
+					</script>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!-- our prices -->
+<div id="prices" class="prices all_pad agile wow zoomIn" data-wow-duration="1.5s" data-wow-delay="0.1s">
+	<div class="container">
+		<h3 class="title">Our Best Prices <span></span></h3>
+		<div class="prices-grids">
+			<div class="col-md-4 prices-grd">
+				<div class="price-back">
+					<div class="price-head hexagon_box">
+						<h4>Bridal And Groom Packs</h4>
+					</div>
+					<div class="price-pad">
+						<ul>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>GROOM - 2500-2100</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>BRIDAL - 25k-21k</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>FULL PACKAGE -15k</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>HALF PACKAGE 5k-7k</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>OTHER CHOICES</a></li>
+						</ul>
+						<p>cool offers</p>
+						<div class="price-book">
+							<a href="#small-dialog" class="play-icon popup-with-zoom-anim">Book Now</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 prices-grd">
+				<div class="price-back">
+					<div class="price-head hexagon_box">
+						<h4>Offers</h4>
+					</div>
+					<div class="price-pad">
+						<ul>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>we </a></li>
+				     		<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>are </a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>gonna </a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>delare</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>soon</a></li>
+						</ul>
+						<p>Offers</p>
+						<div class="price-book">
+							<a href="#small-dialog" class="play-icon popup-with-zoom-anim">Book Now</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 prices-grd">
+				<div class="price-back">
+					<div class="price-head hexagon_box">
+						<h4>Other Activities</h4>
+					</div>
+					<div class="price-pad">
+						<ul>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>CULTURAL EVENTS</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>RAMP WALKS</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>SCHOOL EVENTS</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>COLLEGE EVENTS</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>OCCASIONAL </a></li>
+							<!--<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Sunset sponge</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Sunset sponge</a></li>-->
+						</ul>
+						<p>Offers</p>
+						<div class="price-book">
+							<a href="#small-dialog" class="play-icon popup-with-zoom-anim">Book Now</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!-- //our prices -->
+<!-- team -->
+<div id="team" class="team-content all_pad agileits wow fadeInUp animated" data-wow-delay=".5s">
+	<div class="container">
+		<h3 class="title">Our Team <span></span></h3>	
+		<p class="para"><h2 style="text-align: center;">This is our team.
+		Feel free to contact us.</h2></p>
+		<br>
+		<br>
+		<div class="team-grids">
+			<div class="col-md-4 team-gd">
+				<div class="team-left">
+					<div class="team-top">
+					
+					</div>
+					<div class="team-bottom">
+						<h4>Paro</h4>
+						<p>Beautician</p>
+						<ul>
+							<li>
+								<a href="#">
+									<div class="morph pic fb_icon1">	
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="morph pic fb_icon2">
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="morph pic fb_icon3">
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="t-img">
+						<img src="images/team1.jpg" alt=" " />
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 team-gd">
+				<div class="team-left">
+					<div class="team-top">
+					
+					</div>
+					<div class="team-bottom">
+						<h4>Rachit</h4>
+						<p>Specialist</p>
+						<ul>
+							<li>
+								<a href="#">
+									<div class="morph pic fb_icon1">	
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="morph pic fb_icon2">
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="morph pic fb_icon3">
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="t-img">
+						<img src="images/team4.jpg" alt=" " />
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 team-gd">
+				<div class="team-left">
+					<div class="team-top">
+					
+					</div>
+					<div class="team-bottom">
+						<h4>Harshit</h4>
+						<p>Developer</p>
+						<ul>
+							<li>
+								<a href="#">
+									<div class="morph pic fb_icon1">	
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="morph pic fb_icon2">
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="morph pic fb_icon3">
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="t-img">
+						<img src="images/team3.jpg" alt=" " />
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!-- //team -->
+<div id="treatments" class="treatments all_pad w3 wow zoomIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
+	<div class="container">
+	<a href="../web/galery/gallry.html" src="/galery/gallry.html">	<h3 class="title">Gallery <span></span></h3> </a>
+		<p class="para">The work done by us as follows</p>
+	</div>
+	<div class="treat-grids">
+		<div class="flex-slider wow fadeInDown animated" data-wow-delay=".5s">
+			<ul id="flexiselDemo1">			
+				<li>
+					<div class="laptop">
+						<a class="example-image-link" href="images/g1.jpg" data-lightbox="example-1" data-title="Angel Spa">
+						
+							<div class="pets-effect ver_line zoom">
+								<div class="img-box"><img class="img-responsive zoom-img" src="images/g1.jpg" alt=" " /></div>
+								<div class="pets-info">
+								</div>
+								
+							</div>
+						</a>
+							<div class="pets-effect-btm">
+							</div>
+						
+					</div>
+				</li>
+				<li>
+					<div class="laptop">
+						<a class="example-image-link" href="images/g2.jpg" data-lightbox="example-1" data-title="Angel Spa">
+							<div class="pets-effect ver_line zoom">
+								<div class="img-box"><img class="img-responsive zoom-img" src="images/g2.jpg" alt=" " /></div>
+								<div class="pets-info">
+								</div>
+								
+							</div>
+						</a>
+							
+					</div>
+				</li>
+				<li>
+					<div class="laptop">
+						<a class="example-image-link" href="images/g3.jpg" data-lightbox="example-1" data-title="Angel Spa">
+							<div class="pets-effect ver_line zoom">
+								<div class="img-box"><img class="img-responsive zoom-img" src="images/g3.jpg" alt=" " /></div>
+								<div class="pets-info">
+								</div>
+							</div>
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="laptop">
+						<a class="example-image-link" href="images/g4.jpg" data-lightbox="example-1" data-title="Angel Spa">
+							<div class="pets-effect ver_line zoom">
+								<div class="img-box"><img class="img-responsive zoom-img" src="images/g4.jpg" alt=" " /></div>
+								<div class="pets-info">
+								</div>
+							</div>
+						</a>
+					</div>
+				</li>
+			</ul>
+			 <script src="js/lightbox.js"></script>
+			
+		</div>
+	</div>
+</div>
+<!-- contact -->
+<div id="contact" class="contact all_pad w3agile wow bounceInDown" data-wow-duration="1s" data-wow-delay="0s">
+	<div class="container">
+		<h3 class="title">Contact<span></span></h3>
+			<h3 style="text-align: center;">these are the details of ours.
+			please,Do visit once.<span></span></h2>
+		<div class="col-md-7 contact-left">
+		<br>
+		<br>
+			<h4>Keep In Touch</h4>
+			<form action="#" method="post">
+				<div class="form-left">
+					<input type="text" value="Name" name="Name" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Name';}">
+				</div>
+				<div class="form-right">
+					<input type="email address" value="Email" name="Email" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Email';}">
+				</div>
+				<div class="clearfix"></div>
+				<input type="text" value="Subject" name="Subject" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='Subject';}">
+				<textarea name="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}" required="">Message</textarea>
+				<input type="submit" value="Send">
+			</form>
+			<div class="footer-grids">
+				<div class="col-sm-4 footer-one">
+					<i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>
+					<p>+91 9667355183<span>+91 9314405315</span></p>
+
+				</div>
+				<div class="col-sm-4 footer-one">
+					<i class="glyphicon glyphicon-envelope" aria-hidden="true"></i>
+					<p><a href="mailto:rachitsrivastav002@gmail.com">rachitsrivastav002.com</a><span><a href="mailto:anjlisrivastava33@gmail.com">anjlisrivastava33@gmail.com</a></span></p>
+				</div>
+				<div class="col-sm-4 footer-one">
+					<i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>
+					<p>156 darjiyon ki gali, dhabhai ka khurra, ramghanj bazar <span>Jaipur City.</span></p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="col-md-5 contact-right">
+			<div class="map-grid">
+			<br>
+			<br>
+				<h4>View On Map</h4>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7120.895654213034!2d75.7545908646752!3d26.825705122084294!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396dca807844810b%3A0xe6387fb00081edcf!2sRampura+Rd%2C+Jaipur%2C+Rajasthan!5e0!3m2!1sen!2sin!4v1486553078890" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+			<div class="map-grid">
+				<h6>Connect With Us</h6>
+				<div class="footer-bottom">
+					<a class="fb" href="#"></a>
+					<a class="twi" href="#"></a>
+					<a class="pin" href="#"></a>
+					<div class="footer-icons">
+						<a class="beh" href="#"></a>
+						<a class="you" href="#"></a>
+						<a class="vim" href="#"></a>
+					</div>
+				</div>
+			</div>
+			<div class="map-grid">
+				<h2>Our Main Branch</h2>
+				<h5>THE ANJALI's</h5>
+				<p>156 darjiyon ki gali, dhabhai ka khurra, ramghanj bazar <span>JAIPUR, 302002</span></p>
+				<p>Phone : 9667355183</p>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="clearfix"></div>
+		<p class="copy-right agileinfo">&copy; 2017 The ANJALI'S . All rights reserved | Design by <a href="http://w3layouts.com">Harshit</a></p>
+	</div>
+</div>
+<!-- //contact -->
+<!-- smooth scrolling -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		/*
+			var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear' 
+			};
+		*/								
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- //smooth scrolling -->
+<!-- for bootstrap working -->
+		<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+	
+</body>
+</html>
